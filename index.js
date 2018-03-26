@@ -1,11 +1,15 @@
 const express = require('express');
 const app = express();
 
+const PORT = process.env.PORT || 4000;
+
+app.use(express.static('public'));
+
 app.get('/', function(req, res) {
-    res.send('Hello');
+    res.sendFile(__dirname + '/public/homepage.html');
+    //res.send('Hello');
 });
 
-const PORT = process.env.PORT || 4000;
 app.listen(PORT,function() {
     console.log(`Express listening on port ${PORT}`);
 });

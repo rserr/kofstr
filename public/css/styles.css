@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Work+Sans:700');
+
+html {
+    height: 100%;
+}
+
+body {
+    /*background: linear-gradient(rgba(0, 100, 255,0.7), rgba(200,200,255,0.3)), url("https://source.unsplash.com/Xruf17OrkwM");*/
+    background: linear-gradient(rgba(0, 100, 255,0.7), rgba(200,200,255,0.3)), url("http://upload.wikimedia.org/wikipedia/commons/a/ac/Australian_Helicopters_%28VH-YXJ%29%2C_operated_for_Ambulance_Victoria%2C_AgustaWestland_AW139_taxiing_at_Wagga_Wagga_Airport.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10em;
+    text-shadow: 1px 2px 3px #333333;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #333333;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #333333;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}

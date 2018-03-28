@@ -36,3 +36,15 @@ h3 {
     text-shadow: 1px 2px 3px #333333;
     letter-spacing: 4px;
 }
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    /*font-size: 1.5em;*/
+    text-shadow: 1px 2px 3px #333333;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    /*font-size: 1.5em;*/
+    text-shadow: 1px 2px 3px #333333;
+}
